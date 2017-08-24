@@ -1,0 +1,85 @@
+body{
+  /*margin: 50px 50px 50px 50px;*/
+  width: 80vw;
+
+  margin: 0 auto;
+}
+
+
+.top-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+.red{
+  height: 200px;
+  width: 30%;
+
+  background-color: red;
+}
+
+.blue{
+  height: 200px;
+  width: 30%;
+  background-color: blue;
+}
+.black{
+  height: 200px;
+  width: 30%;
+  background-color: black;
+}
+
+
+.middle-section{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+.fat-red{
+  height:300px;
+  width:34%;
+  background-color: red;
+}
+
+.fat-blue{
+  height: 300px;
+  width: 66%;
+  background-color: blue;
+}
+
+.bottom-section{
+  /*display: flex;
+  flex-direction: row;*/
+  height: 150px;
+
+}
+
+
+.blue-grandparent{
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+  margin-bottom: 50px;
+  position: relative;
+
+}
+
+.red-parent{
+  height: 100%;
+  width: 33%;
+  background-color: red;
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: center;
+
+}
+
+.black-child{
+  height: 100%;
+  width: 80%;
+  background-color: black;
+}
